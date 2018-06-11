@@ -1,4 +1,4 @@
-##### Introduction
+### Introduction
 
 This repository shows a clean way to inspect existing datasamples for errors.
 
@@ -7,12 +7,27 @@ as a mock for further development.
 
 It checks for custom errors as well as structural errors in the file.
 
-##### Schema creation
+### Installation and Usage
+
+```installation
+pip install goodtables
+pip install tabulator
+#pip install pandas
+```
+
+Open example.py and execute the example through your Python Interpreter.
+After its executed you will find two new files in your current working directory.
+
+*Note:* if youre using this under linux, it may needs a new target_path.
+Check for ErrNo 13: No permission to....
+
+
+### Schema creation
 
 Schemas can be created in a very detailed way. See more details here:
 https://frictionlessdata.io/specs/table-schema/
 
-##### Disclaimer: Production
+### Disclaimer: Production
 
 As proper tests are missing this should be cautiously used in a production
 environment.
