@@ -1,0 +1,26 @@
+{
+   "fields": [
+      {
+         "format": "default",
+         "name": "example_ID",
+         "type": "integer"
+      },
+      {
+         "format": "default",
+         "name": "second_ID",
+         "type": "string",
+         "constraints": {
+           "required": true,
+           "enum": ["hello"]
+         }
+      },
+      {
+         "format": "default",
+         "name": "third_ID",
+         "type": "integer"
+      }
+   ],
+   "missingValues": [
+      ""
+   ]
+}
